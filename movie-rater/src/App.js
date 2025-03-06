@@ -1,12 +1,13 @@
 import './App.css';
+import MovieList from './components/movie-list';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1> Movie _rater</h1>
+      <h1> Movie Rater</h1>
       <div className='grid grid-cols-2'>
-      <h1> Movie list</h1>
+      <MovieList/>
       <h1>Movie Details</h1>
     
       </div>
